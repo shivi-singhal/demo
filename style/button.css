@@ -1,0 +1,80 @@
+/* --- Button Start ---- */
+.button {
+    position: relative;
+    display: inline-flex;
+    padding: 12px 34px;
+    font-size: 18px;
+    border-radius: 115px;
+    border: 1px solid;
+    letter-spacing: 0.36px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    font-family: MazzardH-Medium;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.button-white {
+    color: var(--blue-color);
+    background-color: var(--white);
+    border-color: var(--blue-color);
+}
+
+.button-blue {
+    color: var(--white);
+    background-color: var(--blue-color);
+    border-color: var(--blue-color);
+}
+
+.button .circle {
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: height 0.5s, width 0.5s;
+    height: 0;
+    width: 0;
+    z-index: -1;
+    animation: ripple 0.3s ease-in-out;
+   
+}
+
+.button:hover .circle {
+    height: 400px;
+    width: 400px;
+    transition: height 1s, width 1s;
+}
+
+.button-white .circle {
+    background-color: var(--dark-blue);
+}
+
+.button-blue .circle {
+    background-color: var(--dark-blue);
+}
+
+.button-outline .circle {
+    background-color: var(--dark-blue);
+}
+
+a.button:hover,
+.button:hover {
+    background-color: var(--dark-blue);
+    border-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--white);
+    transform: scale(0.95);
+}
+
+@keyframes ripple {
+    to {
+        transform: translate(-50%, -50%) scale(.95);
+        /* opacity: .8; */
+    }
+}
+
+/* --- Button End --- */

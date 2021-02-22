@@ -1,0 +1,423 @@
+@media (max-width: 767px) {
+
+
+    .common-section {
+        padding-top: 60px;
+    }
+
+    .common-subtext {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .common-subheading {
+        font-size: 32px;
+        line-height: 42px;
+        margin: 0 0 10px;
+    }
+
+    .col-5,
+    .col-7 {
+        width: 100%;
+    }
+
+    .brand-sect {
+        padding-top: 130px;
+        overflow: hidden;
+    }
+
+    .brand-text {
+        padding-bottom: 30px;
+    }
+
+    .brand-sect .common-subtext {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .mobile-video,
+    .mobile-video-wrap {
+        height: 345px;
+        width: 158px;
+    }
+
+    .mobile-video {
+        top: -20%;
+    }
+
+    .mobile-video-wrap .mobilevideo-wrap {
+        top: 12px;
+        left: 1px;
+        width: 98%;
+        height: 96%;
+        border-radius: 12px 12px 20px 20px;
+    }
+
+    .mobile-review-card {
+        width: 260px;
+        padding: 0 10px 10px;
+        left: -30%;
+    }
+
+    .brand-side-image img {
+        height: 160px;
+    }
+
+    .radio-wave {
+        width: 300px;
+        height: 300px;
+    }
+
+    .animate {
+        opacity: 1;
+    }
+
+    .stories-sect .common-subheading {
+        padding-top: 200px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .stories-socialicon {
+        position: relative;
+        width: 100%;
+        height: 250px;
+    }
+
+    .social-pos {
+        width: 70px;
+    }
+
+    .social-pos.pos1 {
+        top: 4%;
+        left: 12%;
+    }
+
+    .social-pos.pos2 {
+        top: 4%;
+        right: 12%;
+    }
+
+    .social-pos.pos3 {
+        top: 45%;
+        left: 0%;
+    }
+
+    .social-pos.pos4 {
+        top: 45%;
+        right: 0%;
+    }
+
+    .social-pos.pos5 {
+        top: 80%;
+        left: 15%;
+    }
+
+    .social-pos.pos6 {
+        top: 80%;
+        right: 15%;
+    }
+
+    .social-pos.pos7 {
+        top: 120%;
+        left: 40%;
+    }
+
+    .deliver-video {
+        position: relative;
+        max-width: 355px;
+    }
+
+    .deliver-video-card video {
+        width: 110px;
+        margin: 0px;
+    }
+
+    .deliver-video-card {
+        padding: 250px 0;
+        justify-content: space-between;
+    }
+
+    .deliver-video-card:first-child p {
+        top: 0%;
+        margin: 55px auto;
+    }
+
+    .deliver-video-card:last-child p {
+        bottom: 0%;
+        right: 0;
+        margin: 0px auto 80px;
+    }
+
+    .mobile-display-growth {
+        display: flex;
+        top: auto !important;
+        bottom: 26%;
+    }
+
+    .mobile-display-growth,
+    .mobile-display-growth .mobile-video-wrap {
+        height: 310px;
+        width: 140px;
+    }
+
+    .mobile-display-growth .mobilevideo-wrap {
+        top: 10px;
+        left: 1px;
+        width: 98%;
+        height: 95%;
+        border-radius: 12px 12px 18px 18px;
+    }
+
+
+
+    .growthview-card {
+        padding: 40px 15px;
+        height: 485px;
+    }
+
+    .growthview-card h4 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .growthview-card .button {
+        opacity: 1;
+    }
+
+    .growthview-card .button {
+        margin-top: 55px;
+    }
+
+    .sticky-sect,
+    .sticky-scroll {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .investment-sect {
+        margin: 60px 0;
+    }
+
+    .investment-sect .flex-row {
+        flex-direction: column;
+    }
+
+    .investment-review-card {
+        height: 100%;
+        padding: 0;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .investment-review-card h5 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .investment-review-card h5 span {
+        font-size: 40px;
+    }
+
+    .investment-review-card .common-subtext {
+        margin: 0 0 20px;
+    }
+
+    .join-brand {
+        margin: 100px 0 100px;
+        position: relative;
+    }
+
+    .join-brand .common-subheading {
+        position: absolute;
+        top: -55px;
+        text-align: center;
+    }
+
+    .join-brand .common-subtext {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .join-brand img {
+        width: 250px;
+        display: flex;
+        margin: auto;
+    }
+
+    .footer-contactinfo {
+        padding: 60px 0;
+    }
+
+    .footer-contactinfo h5 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .footer {
+        padding-top: 70px;
+    }
+
+    .footer .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    .footer .flex-row {
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .footer .footer-navmenu ul {
+        flex-direction: column;
+    }
+
+    .footer .footer-navmenu li {
+        margin: 0 0 20px;
+        font-size: 16px;
+    }
+
+    .footer .footer-addressdetail {
+        padding: 25px 0 0;
+    }
+
+    .footer-socialLinks {
+        margin-top: 45px;
+    }
+
+    .footer-copyright p {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer-copyright ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-copyright a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    main {
+        padding-top: 0;
+    }
+
+    .growthview-sect .flex-row,
+    .join-brand .flex-row,
+    .footer-copyright {
+        flex-direction: column;
+    }
+
+    .col-5,
+    .col-2,
+    .col-7 {
+        width: 100%;
+    }
+
+    /* --- header start --- */
+    .header {
+        height: auto;
+    }
+
+    .header-logo .hamburger {
+        display: flex;
+        height: 25px;
+    }
+
+    .header-logo {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header-menu,
+    .header-button {
+        display: none;
+    }
+
+    /* --- header end --- */
+
+    .brand-sect h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /* --- Deliver Stories Start --- */
+    .deliver-video-card {
+        padding: 150px 0;
+        justify-content: space-between;
+    }
+
+    .deliver-video-card p {
+        position: absolute;
+    }
+
+    .deliver-video-card:last-child {
+        justify-content: flex-end;
+    }
+
+    .deliver-video-card:first-child p,
+    .deliver-video-card:last-child p {
+        left: 0;
+        right: 0;
+    }
+
+    .deliver-video-card:first-child p {
+        top: 10%;
+        margin: 55px;
+    }
+
+    .deliver-video-card:last-child p {
+        bottom: -8%;
+        margin: 0px 0 80px;
+        right: 35px;
+        left: auto;
+    }
+
+
+
+    .deliver-video-card:first-child p:after {
+        right: auto;
+        top: auto;
+        left: -7px;
+        bottom: -20px;
+    }
+
+    .deliver-video-card:last-child p:before {
+        left: auto;
+        right: -15px;
+        transform: rotate(-45deg);
+        top: -15px;
+    }
+
+    /* --- Deliver Stories End --- */
+
+    /* --- Join Brand Start --- */
+    .join-brand {
+        text-align: center;
+    }
+
+    /* --- Join Brnad End --- */
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .footer .footer-navmenu li {
+        margin: 0 12px;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 1025px) {
+    .deliver-video-card p {
+        width: 252px;
+    }
+}

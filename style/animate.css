@@ -1,0 +1,36 @@
+.animate{
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+.animated-fadein-out {
+  opacity: 1;
+  animation: fadein 2s 1s linear infinite;
+}
+
+.animated-opacity{
+  opacity: 1;
+  transition: opacity 3s linear;
+}
+
+.animat-slideup{
+  opacity: 1;
+  transform: translateY(-40%);
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 1;
+    width: 150px;
+  }
+
+  50% {
+    opacity: 0.5;
+    width: 140px;
+  }
+
+  90% {
+    opacity: 1;
+    width: 150px;
+  }
+}
